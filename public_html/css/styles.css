@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
 * {
     box-sizing: border-box;
-    font-family: Bahnschrift;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: dodgerblue;
+    background-color: lightgrey;
     display: flex;
     flex-direction: column;
-    height: 80vh;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -78,22 +78,20 @@ textarea.input-field {
 */
 
 header {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 50px;
-    position: fixed;
-    top: 0;
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+
 }
 
 nav {
-    width: 768px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+    width: 100vw;
+    padding: 20px;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 40px;
 }
 
-nav ul {
+ ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
@@ -120,7 +118,7 @@ a:hover {
 */
 
 .index__body {
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .product__section {
@@ -130,7 +128,6 @@ a:hover {
     align-content: center;
     justify-items: center;
     margin: 0 auto;
-    width: 80%;
 }
 
 .item {
@@ -144,11 +141,12 @@ a:hover {
 }
 
 img {
-    width: 100%;
+    width:250px;
     height: 250px;
     object-fit: cover;
     transition: 0.5s ease-in-out;
-    border-radius: 10px;
+    border-radius: 100%;
+    margin: 15px;
 }
 
 .product_bottom {
@@ -166,3 +164,13 @@ main {
     margin-bottom: 50px;
 }
 
+
+.tittle {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.table {
+    width:80%;
+}
