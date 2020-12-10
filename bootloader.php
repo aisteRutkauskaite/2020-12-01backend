@@ -1,9 +1,5 @@
 <?php
 
-
-//use App\App;
-//use Core\Cookies;
-
 define('ROOT', __DIR__);
 define('DB_FILE', ROOT . '/app/data/db.json');
 // App
@@ -18,5 +14,5 @@ require 'core/functions/form/validators.php';
 //Composer
 require 'vendor/autoload.php';
 require 'app/Config/Routes.php';
-//$app = new App();
+
 
